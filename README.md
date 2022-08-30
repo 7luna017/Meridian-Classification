@@ -4,7 +4,11 @@ This is a method to predict the main target meridians of herbs by collecting the
 This is the basic information of herbs collected through Chinese Pharmacopoeia (ChP) and TCMSP (Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform, http://tcmspw.com/tcmsp.php), including the name of herbs, the main targeted meridians, the number of targeted meridians, and the information of compounds.
 ## Modeling Data.csv
 This is the CP matrix obtained by the meridian proportion method, and the data transformation is used to build the model.
-## Meridian collection proportion method.R
-
-
+## Meridian proportion method.R
+The meridians set S1~s10 was established by single Meridian herbs of M1 and M2, and the CP matrix was calculated according to the proportion of herbs in the meridians set. If you want to use other meridians Data, please replace `Base Data.csv` with all herbs collected.
+## lda.R
+This procedure is an LDA model for classifying herbs targeting different meridians, including a feature screening process.
+## data_partitioning.py
+This procedure is used for machine learning part of the test set and training set division.
+## LR.py
 
