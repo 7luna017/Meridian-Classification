@@ -11,4 +11,6 @@ This procedure is an LDA model for classifying herbs targeting different meridia
 ## data_partitioning.py
 This procedure is used for machine learning part of the test set and training set division.
 ## LR.py
-
+This procedure is an LR model for classifying herbs targeting different meridians, the model results are automatically output at the end of the run.
+## SVM.py
+This procedure is an SVM model for classifying herbs targeting different meridians, the model results are automatically output at the end of the run.
